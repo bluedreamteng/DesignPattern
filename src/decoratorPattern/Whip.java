@@ -1,5 +1,10 @@
-package DecoratorPattern;
+package decoratorPattern;
 
+/**
+ * @description:
+ * @author: zhangtf
+ * @create: 2019-07-20 12:03
+ */
 public class Whip extends CondimentDecorator {
     Beverage beverage;
 
@@ -9,11 +14,11 @@ public class Whip extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverage.getDescription()+" ,whip";
+        return beverage.getDescription() + ", Mocha";
     }
 
     @Override
     public double cost() {
-        return .10+beverage.cost();
+        return .20 + beverage.cost();
     }
 }

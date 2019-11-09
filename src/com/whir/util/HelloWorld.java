@@ -20,7 +20,7 @@ public class HelloWorld {
     /**
      * @param userId
      * @param age
-     * @return userId
+     * @return String
      */
     public String run(String userId, int age){
         String s = userId;
